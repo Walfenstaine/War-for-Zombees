@@ -5509,26 +5509,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1365593159983641260, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
-      propertyPath: m_ClearFlags
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1365593159983641260, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
-      propertyPath: orthographic size
-      value: 41.07804
-      objectReference: {fileID: 0}
-    - target: {fileID: 1365593159983641260, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1365593159983641260, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1365593159983641260, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3017739904057803879, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
       propertyPath: m_Name
       value: Player

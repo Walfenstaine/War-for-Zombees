@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5191019746449047646}
   - component: {fileID: -1680924758539746126}
   - component: {fileID: 2677664426803798461}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Mob
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ Transform:
   - {fileID: 8207351621517142922}
   - {fileID: 2730528997686701353}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!195 &472140898884075602
 NavMeshAgent:

@@ -209,7 +209,7 @@ MonoBehaviour:
   agent: {fileID: 4977447048575279801}
   mask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 8
 --- !u!65 &6932065733826428585
 BoxCollider:
   m_ObjectHideFlags: 0
