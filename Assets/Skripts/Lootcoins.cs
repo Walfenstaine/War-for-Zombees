@@ -19,11 +19,11 @@ public class Lootcoins : MonoBehaviour
             Subtitres.regit.timer = 0;
             if (Bridge.platform.language == "ru")
             {
-                Subtitres.regit.subtitres = language.ru + " +" + "1";
+                Subtitres.regit.subtitres = language.ru + " +" + inndex;
             }
             else
             {
-                Subtitres.regit.subtitres = language.en + " +" + "1";
+                Subtitres.regit.subtitres = language.en + " +" + inndex;
             }
             SoundPlayer.regit.sorse.PlayOneShot(coin);
             Destroy(gameObject);
