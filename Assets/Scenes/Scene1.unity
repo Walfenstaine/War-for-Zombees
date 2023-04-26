@@ -5308,10 +5308,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4173550753801126210, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
-      propertyPath: interval
-      value: 2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 6383923609547732038, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
       propertyPath: muwer
       value: 
