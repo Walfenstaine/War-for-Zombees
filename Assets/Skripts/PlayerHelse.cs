@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
+using InstantGamesBridge;
 public class PlayerHelse : MonoBehaviour
 {
+    [SerializeField] private Language language;
     public AudioClip auch, dead;
     public Data data;
     public PlayerMob mob;
@@ -46,6 +48,18 @@ public class PlayerHelse : MonoBehaviour
         
         if (helse <= 0)
         {
+            if (equers == Equers.Mob)
+            {
+                Subtitres.regit.timer = 0;
+                if (Bridge.platform.language == "ru")
+                {
+                    Subtitres.regit.subtitres = language.ru;
+                }
+                else
+                {
+                    Subtitres.regit.subtitres = language.en;
+                }
+            }
             SoundPlayer.regit.sorse.PlayOneShot(dead);
             anim.SetBool("Ded", true);
         }

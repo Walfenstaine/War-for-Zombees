@@ -173,5 +173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 024fe09b0d993594fbb063e4f785b146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  language: {fileID: 11400000, guid: c1ff44e6139115a4f8499a4c1c885501, type: 2}
   coin: {fileID: 8300000, guid: 3e496eb731691f64e8598ba3708a9bb8, type: 3}
   data: {fileID: 11400000, guid: 2d24e1bdce643a543a1915e38c2dd049, type: 2}

@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f4ea46d64cef2b41a61bf9eb5e8d6d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  language: {fileID: 11400000, guid: d645c32cb56bccb42bd560290b38535c, type: 2}
   auch: {fileID: 8300000, guid: fe1c1313c751e12418ec35b73c174f1a, type: 3}
   dead: {fileID: 8300000, guid: 88d8b607712ac754b8baa29099f5b134, type: 3}
   data: {fileID: 11400000, guid: 2d24e1bdce643a543a1915e38c2dd049, type: 2}

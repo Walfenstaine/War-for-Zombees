@@ -30,7 +30,7 @@ Transform:
   m_Children:
   - {fileID: 1372100316099652034}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1005467231777101712
 PrefabInstance:
@@ -445,6 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca66429f1babcd94d852365c58497e85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  language: {fileID: 11400000, guid: 9e79c5817a2451841b24d1487ce41fe7, type: 2}
   hey: {fileID: 8300000, guid: fba022ab62988fc4b99e8fe1c90cc8cd, type: 3}
   prefab: {fileID: 7674701603005779066, guid: 66ee0a03c32a4e440abe4d0c617bfed2, type: 3}
   anim: {fileID: 7364102055996925461}
