@@ -752,6 +752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf93f61dcb5e2ae4184a42fc5ab29a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brash: {fileID: 11400000, guid: 18143107695c0094b9be73c0b9c9f026, type: 2}
   loot: {fileID: 3781490785789179630, guid: 5851ec0a46aed5c409a379d602e3c372, type: 3}
   pHelse: {fileID: 0}
   equers: 1

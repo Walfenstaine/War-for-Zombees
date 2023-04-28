@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Interface : MonoBehaviour {
+    public Data brush;
     public AudioClip fudoff, clic;
 	public GameObject game, ded, menu, and, golod;
     public Text brusher;
-    public int brush { get; set; }
     public static Interface regit { get; set; }
 
     void Awake()
@@ -76,10 +76,13 @@ public class Interface : MonoBehaviour {
         {
             Menue();
         }
-        brusher.text = "" + brush;
-        if (brush <= 0)
+        brusher.text = "" + brush.record;
+        if (game.activeSelf)
         {
-            Andlevel();
+            if (brush.record <= 0)
+            {
+                Andlevel();
+            }
         }
 	}
 }

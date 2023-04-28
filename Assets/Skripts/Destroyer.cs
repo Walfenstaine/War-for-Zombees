@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Destroyer : MonoBehaviour
 {
+    public Data brash;
     public GameObject loot;
     public PlayerHelse pHelse;
     public Equers equers;
@@ -11,11 +12,11 @@ public class Destroyer : MonoBehaviour
     public Helse helse;
     public GameObject destroy;
 
-    private void Start()
+    void Awake()
     {
         if (equers == Equers.Mob)
         {
-            Interface.regit.brush += 1;
+            brash.record += 1;
         }
             
     }
@@ -23,7 +24,7 @@ public class Destroyer : MonoBehaviour
     {
         if (equers == Equers.Mob)
         {
-            Interface.regit.brush -= 1;
+            brash.record -= 1;
             Instantiate(loot, transform.position, Quaternion.identity);
         }
        

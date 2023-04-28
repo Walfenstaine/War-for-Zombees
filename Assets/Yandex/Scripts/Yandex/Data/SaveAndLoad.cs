@@ -15,6 +15,7 @@ public struct OnLoadIsComplete : IEvent
 
 public class SaveAndLoad : MonoBehaviour
 {
+    public Data brash;
     public static SaveAndLoad Instance { get; private set; }
 
     [SerializeField] private Data myData;
@@ -22,6 +23,10 @@ public class SaveAndLoad : MonoBehaviour
 
     private float time, record;
 
+    private void Start()
+    {
+        brash.record = 0;
+    }
 
     public void Load()
     {

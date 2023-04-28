@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7976fce0763785040bd30fd04ba06b1f, type: 3}
+  m_Name: brush
+  m_EditorClassIdentifier: 
+  record: 58
+  coins: 0
+  food: 0
+  waser: 0
+  playerAtak: 0
+  playerHelse: 0
+  mobAtak: 0
+  mobHelse: 0
+  lvlNumber: 0
+  soundOn: 0

@@ -16,7 +16,7 @@ public class Helse : MonoBehaviour
     public Image hpBar;
     private float timer;
 
-    private void Start()
+    void Awake()
     {
         helse = 100 + data.record;
         hpBar.enabled = false;
