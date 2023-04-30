@@ -4,12 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Interface : MonoBehaviour {
-    public Data brush;
+    public Data brusher;
     public AudioClip fudoff, clic;
 	public GameObject game, ded, menu, and, golod;
-    public Text brusher;
     public static Interface regit { get; set; }
 
+    private void Start()
+    {
+        Menue();
+    }
     void Awake()
     {
         Menue();
@@ -37,12 +40,13 @@ public class Interface : MonoBehaviour {
         Time.timeScale = 0;
     }
     public void Andlevel(){
+        brusher.record = 0;
         golod.SetActive(false);
         game.SetActive(false);
         menu.SetActive(false);
         and.SetActive(true);
         ded.SetActive(false);
-        Time.timeScale = 0;
+
     }
 	public void Menue(){
         SoundPlayer.regit.sorse.PlayOneShot(clic);
@@ -63,7 +67,8 @@ public class Interface : MonoBehaviour {
         ded.SetActive(false);
     }
 	public void Ded(){
-        Time.timeScale = 0;
+        brusher.record = 0;
+
         golod.SetActive(false);
         game.SetActive(false);
         menu.SetActive(false);
@@ -75,14 +80,6 @@ public class Interface : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Tab))
         {
             Menue();
-        }
-        brusher.text = "" + brush.record;
-        if (game.activeSelf)
-        {
-            if (brush.record <= 0)
-            {
-                Andlevel();
-            }
         }
 	}
 }

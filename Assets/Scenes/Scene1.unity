@@ -5107,6 +5107,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2494333615337762448, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2494333615337762448, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2494333615337762448, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2766928150844778741, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000030253073
+      objectReference: {fileID: 0}
+    - target: {fileID: 3667863883016981816, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6383923609547732038, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
       propertyPath: muwer
       value: 
