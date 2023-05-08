@@ -6789,6 +6789,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2766928150844778741, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 300.5228
+      objectReference: {fileID: 0}
+    - target: {fileID: 2766928150844778741, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.000030253073
       objectReference: {fileID: 0}
@@ -6804,10 +6808,38 @@ PrefabInstance:
       propertyPath: thisLvl
       value: Scene2
       objectReference: {fileID: 0}
+    - target: {fileID: 5962565443630277900, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.92278266
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962565443630277900, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.101
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962565443630277900, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962565443630277900, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962565443630277900, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962565443630277900, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6383923609547732038, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
       propertyPath: muwer
       value: 
       objectReference: {fileID: 164693373}
+    - target: {fileID: 6833697794743314164, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
+      propertyPath: language
+      value: 
+      objectReference: {fileID: 11400000, guid: 9fdb6b961ff737d46b7e11ecbcfeb98e, type: 2}
     - target: {fileID: 6894368630829914080, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
       propertyPath: m_Name
       value: Interfase

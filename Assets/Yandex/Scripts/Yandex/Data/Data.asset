@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Data
   m_EditorClassIdentifier: 
   record: 1
-  coins: 866
+  coins: 612
   food: 10
   waser: 10
   playerAtak: 50
