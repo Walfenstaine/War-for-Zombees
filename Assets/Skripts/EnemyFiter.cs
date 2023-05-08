@@ -12,7 +12,10 @@ public class EnemyFiter : MonoBehaviour
     public void Fite()
     {
         agent.isStopped= true;
-        ai.enabled = false;
+        if (ai != null)
+        {
+            ai.enabled = false;
+        }
     }
     public void Kik()
     {

@@ -67,13 +67,13 @@ public class UIVirtualJoystick : MonoBehaviour, IPointerDownHandler, IDragHandle
     private void UpdateHandleRectPosition(Vector2 newPosition)
     {
         newPosition = new Vector2(newPosition.x, newPosition.y);
-        handleRect.anchoredPosition = newPosition;
+        handleRect.localPosition = newPosition;
     }
 
     Vector2 ApplySizeDelta(Vector2 position)
     {
-        float x = (position.x/containerRect.sizeDelta.x) * 2.5f;
-        float y = (position.y/containerRect.sizeDelta.y) * 2.5f;
+        float x = (position.x/containerRect.position.x) * 2.5f;
+        float y = (position.y/containerRect.position.y) * 2.5f;
         return new Vector2(x, y);
     }
 

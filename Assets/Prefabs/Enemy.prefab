@@ -203,7 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   stopDist: 4
-  spector: 20
+  spector: 17
   anim: {fileID: 8320040474294370001}
   player: {fileID: 0}
   agent: {fileID: 4977447048575279801}
@@ -712,6 +712,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0633343e428f9bb43ad73072ecb0f74f, type: 2}
     m_RemovedComponents:
     - {fileID: 9041588832154769841, guid: d499e759df62eee409352ebed48b54ff, type: 3}
+    - {fileID: 1217304117651345858, guid: d499e759df62eee409352ebed48b54ff, type: 3}
     m_RemovedGameObjects:
     - {fileID: 7958510428881682533, guid: d499e759df62eee409352ebed48b54ff, type: 3}
     - {fileID: 3265348175930530438, guid: d499e759df62eee409352ebed48b54ff, type: 3}

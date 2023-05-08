@@ -38,7 +38,7 @@ Transform:
   - {fileID: 8207351621517142922}
   - {fileID: 2730528997686701353}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!195 &472140898884075602
 NavMeshAgent:
@@ -59,7 +59,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 4
-  m_BaseOffset: -0.3
+  m_BaseOffset: -0.18
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &3329973073092838604
@@ -5018,7 +5018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2233379598715633234, guid: d499e759df62eee409352ebed48b54ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 2233379598715633234, guid: d499e759df62eee409352ebed48b54ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5092,6 +5092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf93f61dcb5e2ae4184a42fc5ab29a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brash: {fileID: 0}
   loot: {fileID: 0}
   pHelse: {fileID: 5191019746449047646}
   equers: 0

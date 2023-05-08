@@ -8,11 +8,9 @@ using pEventBus;
 
 public class ShowInter : MonoBehaviour, IEventReceiver<ShowInterAds>
 {
-
+    public AudioSource sorse;
     public Data data;
-    
-    private float scale = 1;
-    
+
     void OnEnable()
     {
         Bridge.advertisement.interstitialStateChanged += Interstitial;
@@ -52,16 +50,14 @@ public class ShowInter : MonoBehaviour, IEventReceiver<ShowInterAds>
     {
         if (state == InterstitialState.Closed)
         {
-            Time.timeScale = scale;
-            AudioListener.pause = !data.soundOn;
+            sorse.mute = !data.soundOn;
         }
 
 
         if (state == InterstitialState.Opened)
         {
-            scale = Time.timeScale;
             Time.timeScale = 0;
-            AudioListener.pause = true;
+            sorse.mute = true;
         }
     }
 }

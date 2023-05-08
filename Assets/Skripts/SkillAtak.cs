@@ -14,9 +14,9 @@ public class SkillAtak : MonoBehaviour
 
     public void SkillUp()
     {
-        if (data.coins >= data.playerAtak * 50)
+        if (data.coins >= data.playerAtak * 10)
         {
-            data.coins -= data.playerAtak * 50;
+            data.coins -= data.playerAtak * 10;
             data.playerAtak += 1;
         }
     }
@@ -25,12 +25,12 @@ public class SkillAtak : MonoBehaviour
         if (Bridge.platform.language == "ru")
         {
             textUp.text = languageUp.ru + data.playerAtak;
-            textDown.text = languageDown.ru + data.playerAtak * 50;
+            textDown.text = languageDown.ru + data.playerAtak * 10;
         }
         else
         {
             textUp.text = languageUp.en + data.playerAtak;
-            textDown.text = languageDown.en + data.playerAtak * 50;
+            textDown.text = languageDown.en + data.playerAtak * 10;
         }
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Interface : MonoBehaviour {
     public Data brusher;
-    public AudioClip fudoff, clic;
+    public AudioClip fudoff;
 	public GameObject game, ded, menu, and, golod;
     public static Interface regit { get; set; }
 
@@ -41,6 +41,7 @@ public class Interface : MonoBehaviour {
     }
     public void Andlevel(){
         brusher.record = 0;
+        Time.timeScale = 0;
         golod.SetActive(false);
         game.SetActive(false);
         menu.SetActive(false);
@@ -49,7 +50,6 @@ public class Interface : MonoBehaviour {
 
     }
 	public void Menue(){
-        SoundPlayer.regit.sorse.PlayOneShot(clic);
         Time.timeScale = 0;
         golod.SetActive(false);
         game.SetActive(false);
@@ -58,7 +58,6 @@ public class Interface : MonoBehaviour {
         ded.SetActive(false);
 	}
 	public void Game(){
-        SoundPlayer.regit.sorse.PlayOneShot(clic);
         Time.timeScale = 1;
         golod.SetActive(false);
         game.SetActive(true);
@@ -68,7 +67,7 @@ public class Interface : MonoBehaviour {
     }
 	public void Ded(){
         brusher.record = 0;
-
+        Time.timeScale = 0;
         golod.SetActive(false);
         game.SetActive(false);
         menu.SetActive(false);

@@ -14,9 +14,9 @@ public class SkillAtakMob : MonoBehaviour
 
     public void SkillUp()
     {
-        if (data.coins >= data.mobAtak * 50)
+        if (data.coins >= data.mobAtak * 10)
         {
-            data.coins -= data.mobAtak * 50;
+            data.coins -= data.mobAtak * 10;
             data.mobAtak += 1;
         }
     }
@@ -25,12 +25,12 @@ public class SkillAtakMob : MonoBehaviour
         if (Bridge.platform.language == "ru")
         {
             textUp.text = languageUp.ru + data.mobAtak;
-            textDown.text = languageDown.ru + data.mobAtak * 50;
+            textDown.text = languageDown.ru + data.mobAtak * 10;
         }
         else
         {
             textUp.text = languageUp.en + data.mobAtak;
-            textDown.text = languageDown.en + data.mobAtak * 50;
+            textDown.text = languageDown.en + data.mobAtak * 10;
         }
     }
 }

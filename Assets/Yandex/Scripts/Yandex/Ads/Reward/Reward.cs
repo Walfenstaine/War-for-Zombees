@@ -8,14 +8,14 @@ using UnityEngine.Events;
 public class Reward : MonoBehaviour
 {
     public Data data;
-    
+    public AudioSource sorse;
     public UnityEvent OnReward;
 
 
 
     private bool isRewarded;
 
-    private float scale = 1;
+    //private float scale = 1;
 
     void OnEnable()
     {
@@ -42,9 +42,9 @@ public class Reward : MonoBehaviour
         if (state == RewardedState.Opened)
         {
             isRewarded = false;
-            scale = Time.timeScale;
-            Time.timeScale = 0;
-            AudioListener.pause = true;
+            //scale = Time.timeScale;
+            //Time.timeScale = 0;
+            sorse.mute = true;
 
         }
 
@@ -57,8 +57,8 @@ public class Reward : MonoBehaviour
         {
 
 
-            Time.timeScale = scale;
-            AudioListener.pause = !data.soundOn;
+            //Time.timeScale = scale;
+            sorse.mute = !data.soundOn;
 
             if (isRewarded)
             {
