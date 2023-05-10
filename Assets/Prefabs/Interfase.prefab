@@ -320,6 +320,7 @@ GameObject:
   - component: {fileID: 6474353600261898861}
   - component: {fileID: 5181128072258497412}
   - component: {fileID: 9204094615378646137}
+  - component: {fileID: 1131385790275372735}
   m_Layer: 5
   m_Name: Games
   m_TagString: Untagged
@@ -430,6 +431,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1131385790275372735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320638888085464014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1148cd5ae431644a431ca4b1541974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urlRu: {fileID: 11400000, guid: 7147449085cf0084a9ccf5872273c9d2, type: 2}
+  urlCom: {fileID: 11400000, guid: 98156467f44dc254993061d4f08f8471, type: 2}
 --- !u!1 &449962336122969244
 GameObject:
   m_ObjectHideFlags: 0
@@ -8153,7 +8168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brusher: {fileID: 11400000, guid: 18143107695c0094b9be73c0b9c9f026, type: 2}
   fudoff: {fileID: 8300000, guid: 529fe381780c54748868bed167763a5f, type: 3}
-  clic: {fileID: 8300000, guid: d06335e9d9eb12b4db95a58977854b38, type: 3}
   game: {fileID: 6024701583770071009}
   ded: {fileID: 2653164233987109212}
   menu: {fileID: 581956464436012357}
@@ -9705,6 +9719,7 @@ GameObject:
   - component: {fileID: 2031356326908846739}
   - component: {fileID: 659044695998616179}
   - component: {fileID: 6786572221024075350}
+  - component: {fileID: 7945782835154419041}
   m_Layer: 5
   m_Name: Games
   m_TagString: Untagged
@@ -9815,6 +9830,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7945782835154419041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7813947488576403307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1148cd5ae431644a431ca4b1541974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urlRu: {fileID: 11400000, guid: 7147449085cf0084a9ccf5872273c9d2, type: 2}
+  urlCom: {fileID: 11400000, guid: 98156467f44dc254993061d4f08f8471, type: 2}
 --- !u!1 &7814276880306303536
 GameObject:
   m_ObjectHideFlags: 0
