@@ -11,5 +11,6 @@ public class AddCoins : MonoBehaviour
     {
         SoundPlayer.regit.sorse.PlayOneShot(clip);
         data.coins += 100;
+        SaveAndLoad.Instance.Save();
     }
 }

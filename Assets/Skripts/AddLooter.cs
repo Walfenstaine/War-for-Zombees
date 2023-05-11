@@ -46,5 +46,6 @@ public class AddLooter : MonoBehaviour
         {
             data.waser += 5;
         }
+        SaveAndLoad.Instance.Save();
     }
 }

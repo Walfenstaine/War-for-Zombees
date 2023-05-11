@@ -1157,7 +1157,7 @@ RectTransform:
   - {fileID: 3926066731286571614}
   - {fileID: 7733905805278971486}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2118,8 +2118,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6747590983350612861}
   m_HandleRect: {fileID: 2054616496299032931}
   m_Direction: 2
-  m_Value: 1.0000087
-  m_Size: 0.7441149
+  m_Value: 1.0000077
+  m_Size: 0.71215194
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2324,6 +2324,8 @@ GameObject:
   - component: {fileID: 7646092755817272570}
   - component: {fileID: 6307521028679030690}
   - component: {fileID: 5877249426197681846}
+  - component: {fileID: 3643227691899717904}
+  - component: {fileID: 7493352419912909289}
   m_Layer: 5
   m_Name: Menue Ded
   m_TagString: Untagged
@@ -2393,6 +2395,49 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3643227691899717904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3330268472417923803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861b253845d9dcc41aa08e3327e68b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7493352419912909289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3330268472417923803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884e0528acf949c4c8b53992a2e72124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3643227691899717904}
+        m_TargetAssemblyTypeName: ButtonShowInter, Assembly-CSharp
+        m_MethodName: Show
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  deltaT: 0.8
 --- !u!1 &3333467878548723548
 GameObject:
   m_ObjectHideFlags: 0
@@ -6751,6 +6796,8 @@ GameObject:
   - component: {fileID: 2728926888517521588}
   - component: {fileID: 2560205681233767095}
   - component: {fileID: 1738569837963580854}
+  - component: {fileID: 5024984804373270688}
+  - component: {fileID: 5832901055339382053}
   m_Layer: 5
   m_Name: Menue Andlevel
   m_TagString: Untagged
@@ -6824,6 +6871,49 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5024984804373270688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8047484590827413914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884e0528acf949c4c8b53992a2e72124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5832901055339382053}
+        m_TargetAssemblyTypeName: ButtonShowInter, Assembly-CSharp
+        m_MethodName: Show
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  deltaT: 0.8
+--- !u!114 &5832901055339382053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8047484590827413914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861b253845d9dcc41aa08e3327e68b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8212042012972254728
 GameObject:
   m_ObjectHideFlags: 0

@@ -2493,8 +2493,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 932912348283916470}
   m_HandleRect: {fileID: 2494333615337762448}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.37214425
+  m_Value: 0.9999998
+  m_Size: 0.35615903
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2740,6 +2740,8 @@ GameObject:
   - component: {fileID: 330812034348724256}
   - component: {fileID: 5317455688486036978}
   - component: {fileID: 3711118432961915501}
+  - component: {fileID: 2709840216774727528}
+  - component: {fileID: 8269181549564562433}
   m_Layer: 5
   m_Name: Menue Ded
   m_TagString: Untagged
@@ -2809,6 +2811,49 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2709840216774727528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2653164233987109212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884e0528acf949c4c8b53992a2e72124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8269181549564562433}
+        m_TargetAssemblyTypeName: ButtonShowInter, Assembly-CSharp
+        m_MethodName: Show
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  deltaT: 0.8
+--- !u!114 &8269181549564562433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2653164233987109212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861b253845d9dcc41aa08e3327e68b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2716334846838136860
 GameObject:
   m_ObjectHideFlags: 0
@@ -6677,6 +6722,8 @@ GameObject:
   - component: {fileID: 6213206987566005707}
   - component: {fileID: 7921587101064108635}
   - component: {fileID: 2011643952696396759}
+  - component: {fileID: 1263161278607147079}
+  - component: {fileID: 4079744356153511689}
   m_Layer: 5
   m_Name: Menue Andlevel
   m_TagString: Untagged
@@ -6750,6 +6797,49 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1263161278607147079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5829212464212640259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884e0528acf949c4c8b53992a2e72124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4079744356153511689}
+        m_TargetAssemblyTypeName: ButtonShowInter, Assembly-CSharp
+        m_MethodName: Show
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  deltaT: 0.8
+--- !u!114 &4079744356153511689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5829212464212640259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861b253845d9dcc41aa08e3327e68b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5892727008176643094
 GameObject:
   m_ObjectHideFlags: 0
