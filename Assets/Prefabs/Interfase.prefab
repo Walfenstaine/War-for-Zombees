@@ -2493,8 +2493,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 932912348283916470}
   m_HandleRect: {fileID: 2494333615337762448}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.35615903
+  m_Value: 1
+  m_Size: 0.4760481
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8111,7 +8111,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 470}
+  m_ReferenceResolution: {x: 960, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -11117,7 +11117,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: a29a348c256998c4092fd7c1c7f3b281, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

@@ -527,11 +527,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5788612258266022741, guid: dd8e9c297901cec4ab0543b8d019cb3e, type: 3}
   m_PrefabInstance: {fileID: 140991393}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &164693367 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8912808853909140383, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
-  m_PrefabInstance: {fileID: 5566870016809120566}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &164693373 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1655817017059234497, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
@@ -6625,7 +6620,7 @@ PrefabInstance:
     - target: {fileID: 1908831473778071260, guid: 8916ab3d9e338154b9bc1c8083c89a11, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 164693367}
+      objectReference: {fileID: 5566870016809120567}
     - target: {fileID: 4059011439252231991, guid: 8916ab3d9e338154b9bc1c8083c89a11, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6768,6 +6763,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
+--- !u!143 &5566870016809120567 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 1117368285320636759, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
+  m_PrefabInstance: {fileID: 5566870016809120566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6982533385851745658
 PrefabInstance:
   m_ObjectHideFlags: 0

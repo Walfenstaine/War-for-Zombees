@@ -196,6 +196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4059011439252231991}
   - component: {fileID: 1908831473778071260}
+  - component: {fileID: 6936591464564280654}
   m_Layer: 7
   m_Name: CamController
   m_TagString: Untagged
@@ -234,3 +235,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iF: {fileID: 0}
   player: {fileID: 0}
+--- !u!114 &6936591464564280654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6271064133177855203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918e17619829e8c41b19fbe3eb7db4dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deyColor: {r: 0.9961291, g: 1, b: 0.4764151, a: 0}
+  nightColor: {r: 0.6933962, g: 0.9072385, b: 1, a: 0}
+  tim: 0
+  lit: {fileID: 6414962037439847276}

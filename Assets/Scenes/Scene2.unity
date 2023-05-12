@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.11320752, g: 0.11320752, b: 0.11320752, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -533,11 +533,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5971198604548655200, guid: 37e9527c4bbba0a4493145907412ed7d, type: 3}
   m_PrefabInstance: {fileID: 155033519}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &164693367 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8912808853909140383, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
-  m_PrefabInstance: {fileID: 5566870016809120566}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &164693373 stripped
 MonoBehaviour:
@@ -6975,7 +6970,7 @@ PrefabInstance:
     - target: {fileID: 1908831473778071260, guid: 8916ab3d9e338154b9bc1c8083c89a11, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 164693367}
+      objectReference: {fileID: 5566870016809120567}
     - target: {fileID: 4059011439252231991, guid: 8916ab3d9e338154b9bc1c8083c89a11, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7035,6 +7030,10 @@ PrefabInstance:
     - target: {fileID: 6414962037439847276, guid: 8916ab3d9e338154b9bc1c8083c89a11, type: 3}
       propertyPath: m_Color.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936591464564280654, guid: 8916ab3d9e338154b9bc1c8083c89a11, type: 3}
+      propertyPath: tim
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7102,6 +7101,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
+--- !u!143 &5566870016809120567 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 1117368285320636759, guid: e680bbf3ad0864144a938edd554eac8f, type: 3}
+  m_PrefabInstance: {fileID: 5566870016809120566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8088967670635724045
 PrefabInstance:
   m_ObjectHideFlags: 0
