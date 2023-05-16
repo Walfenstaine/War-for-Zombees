@@ -1516,6 +1516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5700419328521353658, guid: 136b25a4acc87ef4e92975fcd527a425, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
