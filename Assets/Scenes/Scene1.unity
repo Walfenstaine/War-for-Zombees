@@ -2356,7 +2356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2766928150844778741, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000023760726
+      value: 0.00003573084
       objectReference: {fileID: 0}
     - target: {fileID: 3667863883016981816, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
       propertyPath: m_Size
@@ -2365,22 +2365,6 @@ PrefabInstance:
     - target: {fileID: 6894368630829914080, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
       propertyPath: m_Name
       value: Interfase
-      objectReference: {fileID: 0}
-    - target: {fileID: 6894368630829914080, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7395053524216836866, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7395053524216836866, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7395053524216836866, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7458374182467490312, guid: 15c0ab610db88df41b686d5c17efb5d4, type: 3}
       propertyPath: m_Pivot.x
