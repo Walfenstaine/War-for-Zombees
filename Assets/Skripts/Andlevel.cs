@@ -5,18 +5,15 @@ using UnityEngine.SceneManagement;
 public class Andlevel : MonoBehaviour
 {
     public Data data;
-    public string thisLvl, nextLvl;
+    public string nextLvl;
     public void NextLevel()
     {
-        if (data.lvlNumber > SceneManager.loadedSceneCount)
-        {
-            data.lvlNumber = 1;
-        }
         SaveAndLoad.Instance.Save();
         SceneManager.LoadScene(nextLvl);
     }
     public void Reload()
     {
-        SceneManager.LoadScene(thisLvl);
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
     }
 }

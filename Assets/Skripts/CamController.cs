@@ -7,6 +7,7 @@ public class CamController : MonoBehaviour
     public float intensive = 2.0f;
     public Interface iF;
     public CharacterController player;
+
     void Update()
     {
         if (player != null)

@@ -7,10 +7,16 @@ public class HouseMaster : MonoBehaviour
     public GameObject up;
     private void OnTriggerEnter(Collider other)
     {
-        up.SetActive(false);
+        if (other.name == "Player")
+        {
+            up.SetActive(false);
+        }
     }
     private void OnTriggerExit(Collider other)
     {
-        up.SetActive(true);
+        if (other.name == "Player")
+        {
+            up.SetActive(true);
+        }
     }
 }

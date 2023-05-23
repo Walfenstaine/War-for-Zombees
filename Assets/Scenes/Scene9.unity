@@ -574,7 +574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1647885408916498389, guid: 76bd3c1b1d8954c4485c7ebf5841f6c2, type: 3}
       propertyPath: interval
-      value: 1.2
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 1647885408916498389, guid: 76bd3c1b1d8954c4485c7ebf5841f6c2, type: 3}
       propertyPath: spuns.Array.size
@@ -623,11 +623,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 453839376088776166, guid: b16f0aaa820d5b748a9411196aaa9deb, type: 3}
       propertyPath: nextLvl
-      value: Scene7
-      objectReference: {fileID: 0}
-    - target: {fileID: 453839376088776166, guid: b16f0aaa820d5b748a9411196aaa9deb, type: 3}
-      propertyPath: thisLvl
-      value: Scene6
+      value: Scene10
       objectReference: {fileID: 0}
     - target: {fileID: 1766684886057905938, guid: b16f0aaa820d5b748a9411196aaa9deb, type: 3}
       propertyPath: bC
@@ -663,7 +659,7 @@ PrefabInstance:
       objectReference: {fileID: 499506256}
     - target: {fileID: 5888958624054088642, guid: b16f0aaa820d5b748a9411196aaa9deb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0004271798
+      value: 0.0000009152539
       objectReference: {fileID: 0}
     - target: {fileID: 8672004084277526909, guid: b16f0aaa820d5b748a9411196aaa9deb, type: 3}
       propertyPath: m_Pivot.x

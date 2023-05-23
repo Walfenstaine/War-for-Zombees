@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1846203708871065341}
   - component: {fileID: 3401383032305807693}
-  - component: {fileID: 6349471723109295180}
   m_Layer: 0
   m_Name: wa1 (7)
   m_TagString: Untagged
@@ -54,22 +53,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.0131476, y: 4.627166, z: 1.0574338}
   m_Center: {x: -6.8227143, y: 4.5529656, z: -7.9788218}
---- !u!208 &6349471723109295180
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 440916733724714406}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 9.48124, y: 2.274805, z: 0.528715}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.0217104, y: 2.496759, z: -7.97834}
-  m_TimeToStationary: 0.5
 --- !u!1 &3023579585760546679
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +116,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3948243524947243686}
   - component: {fileID: 6680156445193560513}
-  - component: {fileID: 3941520329228018153}
   m_Layer: 0
   m_Name: wa1 (5)
   m_TagString: Untagged
@@ -177,22 +159,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.2355447, y: 4.627166, z: 1.0574281}
   m_Center: {x: 7.385417, y: 4.5529656, z: -7.978649}
---- !u!208 &3941520329228018153
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3132255835746141972}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 9.48124, y: 2.274805, z: 0.528715}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.0217104, y: 2.496759, z: -7.97834}
-  m_TimeToStationary: 0.5
 --- !u!1 &4391404103348627592
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,7 +239,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6445448084053161100}
   - component: {fileID: 8228824122912428099}
-  - component: {fileID: 4811604509190278542}
   m_Layer: 0
   m_Name: wa1 (6)
   m_TagString: Untagged
@@ -317,22 +282,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.0014186, y: 4.627166, z: 1.0574262}
   m_Center: {x: 0.004895628, y: 4.5529656, z: -7.9787893}
---- !u!208 &4811604509190278542
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4839025238623717404}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 9.48124, y: 2.274805, z: 0.528715}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.0217104, y: 2.496759, z: -7.97834}
-  m_TimeToStationary: 0.5
 --- !u!1 &5563145375542066186
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +489,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.4868927, y: 2.274805, z: 8}
+  m_Extents: {x: 0.6, y: 2.274805, z: 8.5}
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 1
@@ -665,7 +614,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.3966484, y: 2.274805, z: 7.688095}
+  m_Extents: {x: 0.6, y: 2.274805, z: 8.5}
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 1
@@ -681,19 +630,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 610fd385d34296943a06c7aefd03f9f0, type: 3}
       propertyPath: m_RootOrder
-      value: -1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 610fd385d34296943a06c7aefd03f9f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61.624664
+      value: 232.5792
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 610fd385d34296943a06c7aefd03f9f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0000038146973
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 610fd385d34296943a06c7aefd03f9f0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -90.31316
+      value: 154.33902
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 610fd385d34296943a06c7aefd03f9f0, type: 3}
       propertyPath: m_LocalRotation.w
