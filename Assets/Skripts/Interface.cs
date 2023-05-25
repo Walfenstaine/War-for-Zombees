@@ -45,7 +45,6 @@ public class Interface : MonoBehaviour {
         if (Time.timeScale == 1)
         {
             data.record += 1;
-            data.lvlNumber += 1;
             Time.timeScale = 0;
         }
         golod.SetActive(false);

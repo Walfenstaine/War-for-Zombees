@@ -11,6 +11,6 @@ public class Data : ScriptableObject
     public int playerHelse;
     public int mobAtak;
     public int mobHelse;
-    public int lvlNumber;
+    public string currentScene;
     public bool soundOn;
 }

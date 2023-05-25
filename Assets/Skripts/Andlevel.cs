@@ -8,6 +8,7 @@ public class Andlevel : MonoBehaviour
     public string nextLvl;
     public void NextLevel()
     {
+        data.currentScene = nextLvl;
         SaveAndLoad.Instance.Save();
         SceneManager.LoadScene(nextLvl);
     }
