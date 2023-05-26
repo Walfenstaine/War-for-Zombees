@@ -1233,7 +1233,7 @@ RectTransform:
   - {fileID: 3926066731286571614}
   - {fileID: 7733905805278971486}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2196,7 +2196,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2054616496299032931}
   m_Direction: 2
   m_Value: 1.0000265
-  m_Size: 0.92932963
+  m_Size: 0.95187414
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6927,6 +6927,7 @@ GameObject:
   - component: {fileID: 1764712187906677418}
   - component: {fileID: 859279676681430600}
   - component: {fileID: 1128349650742576545}
+  - component: {fileID: 4947355071943373661}
   m_Layer: 5
   m_Name: Games
   m_TagString: Untagged
@@ -7037,6 +7038,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4947355071943373661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8212042012972254728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1148cd5ae431644a431ca4b1541974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urlRu: {fileID: 11400000, guid: 7147449085cf0084a9ccf5872273c9d2, type: 2}
+  urlCom: {fileID: 11400000, guid: 98156467f44dc254993061d4f08f8471, type: 2}
 --- !u!1 &8575910096791902886
 GameObject:
   m_ObjectHideFlags: 0
@@ -7463,6 +7478,7 @@ GameObject:
   - component: {fileID: 838928836675214232}
   - component: {fileID: 7903873013612874295}
   - component: {fileID: 1902275217610037994}
+  - component: {fileID: 4493284043794036021}
   m_Layer: 5
   m_Name: Games
   m_TagString: Untagged
@@ -7573,6 +7589,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4493284043794036021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8907805797914285617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1148cd5ae431644a431ca4b1541974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urlRu: {fileID: 11400000, guid: 7147449085cf0084a9ccf5872273c9d2, type: 2}
+  urlCom: {fileID: 11400000, guid: 98156467f44dc254993061d4f08f8471, type: 2}
 --- !u!1 &8928059015374248092
 GameObject:
   m_ObjectHideFlags: 0

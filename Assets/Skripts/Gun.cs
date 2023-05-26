@@ -13,7 +13,6 @@ public class Gun : MonoBehaviour {
 	public AudioClip clip;
 	public Transform target;
 	private float timer;
-	private List<float> dist;
 	private float radius;
 	public LayerMask mask;
 
@@ -28,6 +27,10 @@ public class Gun : MonoBehaviour {
             {
                 if (hit.collider.tag == tagger)
                 {
+                    if (hit.distance > spector)
+                    {
+                        target = null;
+                    }
                     if (Time.timeScale > 0)
                     {
                         if (hit.collider.GetComponent<Helse>())
