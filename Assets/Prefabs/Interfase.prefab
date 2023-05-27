@@ -1417,7 +1417,7 @@ RectTransform:
   m_Father: {fileID: 5640245314537419005}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.08157099, y: 0.125}
+  m_AnchorMin: {x: 0.08157099, y: 0.081}
   m_AnchorMax: {x: 0.9131422, y: 0.8874931}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -2493,7 +2493,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 932912348283916470}
   m_HandleRect: {fileID: 2494333615337762448}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000002
   m_Size: 0.4760481
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3565,7 +3565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000023760726}
+  m_AnchoredPosition: {x: 0, y: -0.00003421303}
   m_SizeDelta: {x: 0, y: 575.8791}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &3012589179145876906
@@ -4664,7 +4664,7 @@ RectTransform:
   m_Father: {fileID: 5640245314537419005}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.08157099, y: 0.125}
+  m_AnchorMin: {x: 0.08157099, y: 0.081}
   m_AnchorMax: {x: 0.9131422, y: 0.8874931}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -4689,11 +4689,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Material: {fileID: 2100000, guid: 7be30444ce47ca140a6fade4ff563e37, type: 2}
+  m_Color: {r: 0.17849922, g: 1, b: 0, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8067,7 +8067,7 @@ RectTransform:
   - {fileID: 1108133920074723257}
   - {fileID: 4544535989613190883}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8277,7 +8277,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 2d24e1bdce643a543a1915e38c2dd049, type: 2}
-  thisLvl: Scene1
   nextLvl: Scene2
 --- !u!114 &468741716144614563
 MonoBehaviour:
