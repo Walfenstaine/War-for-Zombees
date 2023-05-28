@@ -27,10 +27,6 @@ public class Gun : MonoBehaviour {
             {
                 if (hit.collider.tag == tagger)
                 {
-                    if (hit.distance > spector)
-                    {
-                        target = null;
-                    }
                     if (Time.timeScale > 0)
                     {
                         if (hit.collider.GetComponent<Helse>())
@@ -79,9 +75,16 @@ public class Gun : MonoBehaviour {
 		}
 		timer += Time.unscaledDeltaTime;
 		if (target != null) {
-			var lokker = transform.position - target.position;
-			lokker.y = 0;
-			transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.LookRotation (lokker), 5 * Time.deltaTime);
+            if (Vector3.Distance(target.position, transform.position) > spector)
+            {
+                target = null;
+            }
+            else
+            {
+                var lokker = transform.position - target.position;
+                lokker.y = 0;
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(lokker), 5 * Time.deltaTime);
+            }
 		} else {
 			Serching ();
 			transform.rotation = Quaternion.Slerp (transform.rotation, transform.parent.rotation, Time.deltaTime);
