@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemiAI : MonoBehaviour {
+    public Data data;
 	public float speed, stopDist, spector;
 	public Animator anim;
 	public Transform player;
@@ -11,6 +12,10 @@ public class EnemiAI : MonoBehaviour {
     private float radius;
     public LayerMask mask;
 
+    private void Start()
+    {
+        speed = 5 + data.record / 5;
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
