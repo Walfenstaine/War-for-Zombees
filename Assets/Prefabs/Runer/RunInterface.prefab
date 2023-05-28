@@ -4762,7 +4762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 2d24e1bdce643a543a1915e38c2dd049, type: 2}
-  sorse: {fileID: 0}
+  sorse: {fileID: 8931748676610458319}
   OnReward:
     m_PersistentCalls:
       m_Calls:
@@ -5894,7 +5894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 2d24e1bdce643a543a1915e38c2dd049, type: 2}
-  sorse: {fileID: 0}
+  sorse: {fileID: 8931748676610458319}
   OnReward:
     m_PersistentCalls:
       m_Calls:
@@ -7203,7 +7203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 2d24e1bdce643a543a1915e38c2dd049, type: 2}
-  sorse: {fileID: 0}
+  sorse: {fileID: 8931748676610458319}
   OnReward:
     m_PersistentCalls:
       m_Calls:
