@@ -16,14 +16,6 @@ mergeInto(LibraryManager.library, {
         return buffer
     },
 
-    InstantGamesBridgeGetPlatformDomen: function() {
-        var platformDomen = window.getPlatformDomen()
-        var bufferSize = lengthBytesUTF8(platformDomen) + 1
-        var buffer = _malloc(bufferSize)
-        stringToUTF8(platformDomen, buffer, bufferSize)
-        return buffer
-    },
-
     InstantGamesBridgeGetPlatformPayload: function() {
         var platformPayload = window.getPlatformPayload()
         var bufferSize = lengthBytesUTF8(platformPayload) + 1

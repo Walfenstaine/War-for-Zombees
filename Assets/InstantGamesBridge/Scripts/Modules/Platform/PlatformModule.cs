@@ -12,7 +12,6 @@ namespace InstantGamesBridge.Modules.Platform
 
         public string language { get; } = InstantGamesBridgeGetPlatformLanguage();
 
-        public string domen { get; } = InstantGamesBridgeGetPlatformDomen();
 
         public string payload { get; } = InstantGamesBridgeGetPlatformPayload();
 
@@ -23,16 +22,11 @@ namespace InstantGamesBridge.Modules.Platform
         private static extern string InstantGamesBridgeGetPlatformLanguage();
 
         [DllImport("__Internal")]
-        private static extern string InstantGamesBridgeGetPlatformDomen();
-
-        [DllImport("__Internal")]
         private static extern string InstantGamesBridgeGetPlatformPayload();
 #else
         public string id { get; } = "mock";
 
         public string language { get; } = "ru";
-
-        public string domen { get; } = "com";
 
         public string payload { get; } = null;
 #endif
