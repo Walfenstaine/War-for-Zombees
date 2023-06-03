@@ -74,7 +74,7 @@ public class SaveAndLoad : MonoBehaviour
     void SetInitValue()
     {
         myData.record = 1;
-        myData.currentScene = "Scene1";
+        myData.currentScene = "Scene3";
         myData.soundOn = true;
     }
 

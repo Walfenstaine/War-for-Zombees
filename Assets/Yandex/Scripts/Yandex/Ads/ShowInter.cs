@@ -28,14 +28,14 @@ public class ShowInter : MonoBehaviour, IEventReceiver<ShowInterAds>
         EventBus.UnRegister(this);
     }
 
-    void Start()
+    /*void Start()
     {
         var ignoreDelay = false;
         Bridge.advertisement.ShowInterstitial(ignoreDelay, success =>
         {
 
         });
-    }
+    }*/
 
     public void OnEvent(ShowInterAds e)
     {

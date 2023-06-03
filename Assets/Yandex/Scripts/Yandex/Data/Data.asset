@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7976fce0763785040bd30fd04ba06b1f, type: 3}
   m_Name: Data
   m_EditorClassIdentifier: 
-  record: 1
-  coins: 500
-  food: 10
-  waser: 10
+  record: 3
+  coins: 668
+  food: 9
+  waser: 9
   playerAtak: 50
   playerHelse: 100
   mobAtak: 40
   mobHelse: 100
-  lvlNumber: 1
+  currentScene: Scene1
   soundOn: 1
