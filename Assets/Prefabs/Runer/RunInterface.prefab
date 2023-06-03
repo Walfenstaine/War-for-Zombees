@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d8aae547cb7b7b4487a9f59cca89b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iF: {fileID: 0}
+  iF: {fileID: 60722308346976651}
   bar: {fileID: 3636521359608226776}
   andTime: 60
 --- !u!1 &16903421177137955
