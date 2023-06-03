@@ -41,17 +41,17 @@ public class SaveAndLoad : MonoBehaviour
             string data = JsonUtility.ToJson(myData);
             Bridge.storage.Set(id, data, success =>
             {
-                if(record < myData.record)
+                /*if(record < myData.record)
                 {
                     record = myData.record;
                     SetBoard();
-                }
+                }*/
             });
         }
     }
 
 
-    private void SetBoard()
+    /*private void SetBoard()
     {
         var _yandexLeaderboardNameInput = "LEADER1";
         Bridge.leaderboard.SetScore(
@@ -60,7 +60,7 @@ public class SaveAndLoad : MonoBehaviour
 
             },
             new SetScoreYandexOptions(myData.record, _yandexLeaderboardNameInput));
-    }
+    }*/
 
 
     public void Reset()
