@@ -16,10 +16,10 @@ public class ShowInter : MonoBehaviour, IEventReceiver<ShowInterAds>
         Bridge.advertisement.interstitialStateChanged += Interstitial;
         EventBus.Register(this);
 
-        EventBus<ShowInterAds>.Raise(new ShowInterAds()
+        /*EventBus<ShowInterAds>.Raise(new ShowInterAds()
         {
 
-        });
+        });*/
     }
 
     void OnDisable()
