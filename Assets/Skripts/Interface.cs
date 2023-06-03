@@ -7,7 +7,7 @@ public class Interface : MonoBehaviour {
     public Data brusher;
     public Data data;
     public AudioClip fudoff;
-	public GameObject  ded, menu, and, golod;
+	public GameObject  game, ded, menu, and, golod;
     public static Interface regit { get; set; }
 
     private void Start()
@@ -34,7 +34,7 @@ public class Interface : MonoBehaviour {
     {
         SoundPlayer.regit.sorse.PlayOneShot(fudoff);
         golod.SetActive(true);
-        //game.SetActive(false);
+        game.SetActive(false);
         menu.SetActive(false);
         and.SetActive(false);
         ded.SetActive(false);
@@ -48,7 +48,7 @@ public class Interface : MonoBehaviour {
             Time.timeScale = 0;
         }
         golod.SetActive(false);
-        //game.SetActive(false);
+        game.SetActive(false);
         menu.SetActive(false);
         and.SetActive(true);
         ded.SetActive(false);
@@ -57,7 +57,7 @@ public class Interface : MonoBehaviour {
 	public void Menue(){
         Time.timeScale = 0;
         golod.SetActive(false);
-        //game.SetActive(false);
+        game.SetActive(false);
         menu.SetActive(true);
         and.SetActive(false);
         ded.SetActive(false);
@@ -65,7 +65,7 @@ public class Interface : MonoBehaviour {
 	public void Game(){
         Time.timeScale = 1;
         golod.SetActive(false);
-        //game.SetActive(true);
+        game.SetActive(true);
         menu.SetActive(false);
         and.SetActive(false);
         ded.SetActive(false);
@@ -74,7 +74,7 @@ public class Interface : MonoBehaviour {
         brusher.record = 0;
         Time.timeScale = 0;
         golod.SetActive(false);
-        //game.SetActive(false);
+        game.SetActive(false);
         menu.SetActive(false);
         and.SetActive(false);
         ded.SetActive(true);
