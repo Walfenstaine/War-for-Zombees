@@ -11,6 +11,8 @@ public class ShowInter : MonoBehaviour, IEventReceiver<ShowInterAds>
     public AudioSource sorse;
     public Data data;
 
+    private float timeState = 0;
+
     void OnEnable()
     {
         Bridge.advertisement.interstitialStateChanged += Interstitial;
@@ -51,11 +53,13 @@ public class ShowInter : MonoBehaviour, IEventReceiver<ShowInterAds>
         if (state == InterstitialState.Closed)
         {
             sorse.mute = !data.soundOn;
+            Time.timeScale = 1;
         }
 
 
         if (state == InterstitialState.Opened)
         {
+            timeState = Time.timeScale;
             Time.timeScale = 0;
             sorse.mute = true;
         }
